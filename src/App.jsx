@@ -1,7 +1,10 @@
 function App() {
  
   return (
-    <div></div>
+    <>
+      <h1>Hola mundo</h1>
+      <p>Lorem ipsum dolor sit.</p>
+    </>
   )
 }
 
