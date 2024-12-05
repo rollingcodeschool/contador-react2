@@ -1,11 +1,14 @@
+import Encabezado from "./components/Encabezado";
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 function App() {
- 
   return (
-    <>
-      <h1>Hola mundo</h1>
-      <p>Lorem ipsum dolor sit.</p>
-    </>
-  )
+    <main className="container my-5">
+      {/* invocar a un componente */}
+      {/* <Encabezado></Encabezado> */}
+      <Encabezado />
+    </main>
+  );
 }
 
-export default App
+export default App;
