@@ -1,6 +1,7 @@
 import Encabezado from "./components/Encabezado";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import InformacionComponente from "./components/InformacionComponente";
+import Contador from "./components/Contador";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <Encabezado></Encabezado> */}
       <Encabezado />
       <InformacionComponente></InformacionComponente>
+      <Contador></Contador>
     </main>
   );
 }
